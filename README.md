@@ -1,21 +1,17 @@
 # Simple-Food-Recognition-Program
-Training a VGG-19 model to classify images of food such as chicken &amp; rice, spaghetti, chocolate cakes and sandwiches.
+This project involves training a VGG-19 model to classify images of food commonly available in my university's cafe/shops, such as chicken-rice, spaghetti, chocolate cakes, and sandwiches. The goal is to create a system that predicts the class of foods available in cafe/shops, facilitating the estimation of food pricing based on the recognized class.
 
+Using 100 images for each food class found on Google Images. (train-test-split = 80% : 20%) (val = 20% of train data)
 
-100 images of each class
+# Structure of Dataset
 
-train-test-split = 80:20
-
-val = 20% of train
-
-
-Structure of dataset
-
--input
+input ("/input")
 
     -test
     
         ChickenRice (64 images)
+
+        ChocolateCake (64 images)
         
         Sandwich    (64 images)
         
@@ -24,6 +20,8 @@ Structure of dataset
     -train
     
         ChickenRice (20 images)
+
+        ChocolateCake (20 images)
         
         Sandwich    (20 images)
         
@@ -32,9 +30,11 @@ Structure of dataset
     -val
     
         ChickenRice (16 images)
+
+        ChocolateCake (20 images)
         
         Sandwich    (16 images)
         
         Spaghetti   (16 images)
 
-
+("/new_test") #subdirectory containing untrained images taken from my university's cafe/shops to be used to test the model.
