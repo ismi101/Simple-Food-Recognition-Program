@@ -37,4 +37,4 @@ input ("/input")
         
         Spaghetti   (16 images)
 
-("/new_test") #subdirectory containing untrained images taken from my university's cafe/shops to be used to test the model.
+("/new_test") #subdirectory containing untrained images taken from my university's cafe/shops to be used to test the model and display results.
