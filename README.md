@@ -9,32 +9,32 @@ input ("/input")
 
     -test
     
-        ChickenRice (64 images)
+        ChickenRice      (64 images)
 
-        ChocolateCake (64 images)
+        ChocolateCake    (64 images)
         
-        Sandwich    (64 images)
+        Sandwich         (64 images)
         
-        Spaghetti   (64 images)
+        Spaghetti        (64 images)
         
     -train
     
-        ChickenRice (20 images)
+        ChickenRice      (20 images)
 
-        ChocolateCake (20 images)
+        ChocolateCake    (20 images)
         
-        Sandwich    (20 images)
+        Sandwich         (20 images)
         
-        Spaghetti   (20 images)
+        Spaghetti        (20 images)
         
     -val
     
-        ChickenRice (16 images)
+        ChickenRice      (16 images)
 
-        ChocolateCake (20 images)
+        ChocolateCake    (16 images)
         
-        Sandwich    (16 images)
+        Sandwich         (16 images)
         
-        Spaghetti   (16 images)
+        Spaghetti        (16 images)
 
 ("/new_test") #subdirectory containing untrained images taken from my university's cafe/shops to be used to test the model and display results.
